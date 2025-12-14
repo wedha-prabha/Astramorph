@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+google-genai
+jsonschema
+pytest
+python-dotenv
+requests
+matplotlib
+plotly
