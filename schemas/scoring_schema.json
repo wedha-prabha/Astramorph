@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["efficacy_score", "safety_score", "literature_support_score", "mechanism_confidence", "overall_repurposing_score", "verdict"],
+  "properties": {
+    "efficacy_score": { "type": "number" },
+    "safety_score": { "type": "number" },
+    "literature_support_score": { "type": "number" },
+    "mechanism_confidence": { "type": "number" },
+    "overall_repurposing_score": { "type": "number" },
+    "verdict": { "type": "string" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["summary", "patients_sample"],
+  "properties": {
+    "summary": {
+      "type": "object",
+      "required": ["n_patients", "avg_inflammation_reduction_pct", "avg_fev1_gain_ml", "side_effect_rate_pct"],
+      "properties": {
+        "n_patients": { "type": "integer" },
+        "avg_inflammation_reduction_pct": { "type": "number" },
+        "avg_fev1_gain_ml": { "type": "number" },
+        "side_effect_rate_pct": { "type": "number" }
+      }
+    },
+    "patients_sample": {
+      "type": "array",
+      "items": { "type": "object" }
+    }
+  }
+}
